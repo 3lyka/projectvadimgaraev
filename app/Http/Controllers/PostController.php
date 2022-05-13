@@ -10,32 +10,27 @@ class PostController extends Controller
     public function index() {
        // $post = Post::find(1); вызов конкретного айди
        $posts = Post::all();
-    return view('posts', compact('posts'));
+    return view('post.index', compact('posts'));
     }
 
     public function create() {
-        $postsArr = [
-                [
-                    'title' => 'title of post from visual studio code',
-                    'content' => 'some interesting content',
-                    'image' => '',
-                    'Likes' => '50',
-                    'is_published' => 1,
-                ],
-                [
-                    'title' => ' duble title of post from visual studio code',
-                    'content' => 'duble some interesting content',
-                    'image' => '',
-                    'Likes' => '51',
-                    'is_published' => 1,
-                    ],
-        ];
-
-foreach($postsArr as $item) {
-    Post::create($item);
-}
-dd('done');
+        return view('post.create');
     }
+
+    public function show(Post $post) {
+    return view('post.show', compact('post'));
+    }
+
+    public function store() {
+        $data = request()->validate([
+            'title'     => 'string',
+            'content'   => 'string',
+            'image'     => 'string'
+        ]);
+        Post::create($data);
+        return redirect()->route('post.index');
+    }
+
 
 public function update() {
     $post = Post::find(1);

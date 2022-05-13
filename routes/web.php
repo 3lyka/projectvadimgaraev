@@ -19,6 +19,10 @@ Route::get('/', function () {
 
 Route::get('/posts', 'PostController@index')->name('post.index');
 Route::get('/posts/create', 'PostController@create');
+
+Route::post('/posts', 'PostController@store')->name('post.store');
+Route::get('/posts/{post}', 'PostController@show')->name('post.show');
+
 Route::get('/posts/update', 'PostController@update');
 Route::get('/posts/delete', 'PostController@delete');
 Route::get('/posts/restored', 'PostController@restored');

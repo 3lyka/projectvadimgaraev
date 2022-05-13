@@ -18,8 +18,10 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->string('image');
             $table->text('content');
-            $table->unsignedBigInteger('Likes');
-            $table->boolean('is_published')->default(1);
+            $table->integer('price')->default(0);
+            $table->integer('sale')->default(0);
+            $table->integer('description')->default(0);
+            $table->boolean('is_published')->default(0);
             $table->timestamps();
             $table->softDeletes();
         });
