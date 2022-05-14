@@ -28,6 +28,12 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ route('contacts.index')}}">Контакты</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('buy.index')}}">Оплата</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('goodinfo.index')}}">Полезная информация</a>
+        </li>
       </ul>
       <span class="navbar-text">
         Navbar text with an inline element

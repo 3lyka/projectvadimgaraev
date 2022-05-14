@@ -17,17 +17,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/posts', 'PostController@index')->name('post.index');
-Route::get('/posts/create', 'PostController@create');
+Route::get('/catalog/coach', 'PostController@index')->name('post.index');
+Route::get('/catalog/create', 'PostController@create');
 
-Route::post('/posts', 'PostController@store')->name('post.store');
-Route::get('/posts/{post}', 'PostController@show')->name('post.show');
 
-Route::get('/posts/update', 'PostController@update');
+
+Route::post('/catalog', 'PostController@store')->name('post.store');
+Route::get('/catalog/coach/{post}', 'PostController@show')->name('post.show');
+
+/* Route::get('/posts/update', 'PostController@update');
 Route::get('/posts/delete', 'PostController@delete');
 Route::get('/posts/restored', 'PostController@restored');
-Route::get('/posts/first_or_create', 'PostController@firstOrCreate');
+Route::get('/posts/first_or_create', 'PostController@firstOrCreate'); */
 
 Route::get('/main', 'MainController@index')->name('main.index');
 Route::get('/contacts', 'ContactsController@index')->name('contacts.index');
 Route::get('/about', 'AboutController@index')->name('about.index');
+Route::get('/buy', 'BuyController@index')->name('buy.index');
+Route::get('/goodinfo', 'GoodinfoController@index')->name('goodinfo.index');
