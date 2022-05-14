@@ -8,7 +8,7 @@
     <title>Laravel cource</title>
 </head>
 <body>
-<header class="fixed-top bg-light mb-5 p-0">
+<header class="fixed-top bg-light p-0 shadow-lg" style="margin-bottom:10% ;">
 <div class="container">
     <div class="row">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -36,7 +36,7 @@
         </li>
       </ul>
       <span class="navbar-text">
-        Navbar text with an inline element
+      8 812 317 22 42
       </span>
     </div>
   </div>
@@ -51,11 +51,11 @@
                 <div class="row">
                     <div class="col-md-3 col-6">
                         <ul class="list-unstyled mt-5 mb-5">
-                            <li><a href="#" class="nav-link text-white">Оплата</a></li>
+                            <li><a href="{{ route('buy.index')}}" class="nav-link text-white">Оплата</a></li>
                             <li><a href="#" class="nav-link text-white">Акции</a></li>
                             <li><a href="#" class="nav-link text-white">О компании</a></li>
-                            <li><a href="#" class="nav-link text-white">Контакты</a></li>
-                            <li><a href="#" class="nav-link text-white">Полезная информация</a></li>
+                            <li><a href="{{ route('contacts.index')}}" class="nav-link text-white">Контакты</a></li>
+                            <li><a href="{{ route('goodinfo.index')}}" class="nav-link text-white">Полезная информация</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-6">

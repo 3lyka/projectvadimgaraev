@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-sm-6 mt-5">
             <div>
-                <h1>
+                <h1 class="fw-bold">
                     Кухни на заказ <br>
                     от производителя
                 </h1>
@@ -61,6 +61,62 @@
     </div>
 
 </div>
+
+<div class="container mt-5">
+    <div class="row">
+        <h1 class="m-5">Популярные товары</h1>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <div class="container mb-5 p-0">
     <div class="row justify-content-center mt-5" style="background-color: #1A8AAD;">
         <div class="col-md-6 mb-0">
@@ -75,6 +131,8 @@
             </p>
 
         </div>
+
+
 
         <div class="col-md-6 p-4">
             <form class="form" id="myForm" role="form">
@@ -92,6 +150,62 @@
     </div>
 </div>
 </div>
+
+<div class="container mt-5">
+    <div class="row">
+        <h1 class="m-5">Акции</h1>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="card mb-2 b-0 rounded-0">
+                <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
+                <div class="card-body">
+                    <h5 class="card-title m-0">Название: </h5>
+                    <p class="card-text m-0">Стиль: </p>
+                    <p class="card-text m-0">Цвет: </p>
+                    <p class="card-text m-0">Материал: </p>
+                    <a href="#" class="btn btn-primary btn-danger b-0 rounded-0 mt-3 ms-2 d-flex justify-content-center" style="padding: 1% 2% 1% 2%;">от ₽ &#8594;</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <div class="container mt-5 p-0">
     <div class="row mb-5" style="background-color: #E92962;">
         <div class="mb-3 col-sm-6">

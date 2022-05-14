@@ -10,8 +10,10 @@ class PostController extends Controller
     public function index() {
        // $post = Post::find(1); вызов конкретного айди
        $posts = Post::all();
-    return view('post.index', compact('posts'));
+    return view('post.index', compact('posts' ));
+
     }
+    
 
     public function create() {
         return view('post.create');
