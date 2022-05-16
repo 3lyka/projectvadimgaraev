@@ -22,7 +22,7 @@ class PostController extends Controller
     public function show(Post $post) {
     return view('post.show', compact('post'));
     }
-
+//Ниже представлена валидация, если ее не заполнить, ну придет такое себе
     public function store() {
         $data = request()->validate([
             'title'     => 'string',

@@ -16,7 +16,7 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('image');
+            $table->string('image')->default(0);
             $table->text('content');
             $table->integer('price')->default(0);
             $table->integer('sale')->default(0);
@@ -24,6 +24,11 @@ class CreatePostsTable extends Migration
             $table->boolean('is_published')->default(0);
             $table->timestamps();
             $table->softDeletes();
+
+            $table->unsignedBigInteger('category_id')->nullable;
+            $table->index('category_id', 'post_category_idx');
+            $table->foreign('category_id', 'post_category_fk')->on('categories')->references('id');
+
         });
     }
 

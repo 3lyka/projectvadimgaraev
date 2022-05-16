@@ -4,7 +4,14 @@
     
     <div class="container">
         <div class="row">
-
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active "><a class="text-decoration-none fw-light text-secondary" href="{{ route('main.index')}}">Главная</a></li>
+                <li class="breadcrumb-item active "><a class="text-decoration-none fw-light text-secondary" href="{{ route('post.index')}}">Каталог</a></li>
+                <li class="breadcrumb-item disabled">{{$post->title}}</li>
+                
+            </ol>
+        </nav>
 <h1>{{$post->title}}</h1>
 
 <div class="col-sm-6 mt-4">

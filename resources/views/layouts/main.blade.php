@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-md-3 col-6">
                         <ul class="list-unstyled mt-5 mb-5">
-                            <li><a href="#" class="nav-link text-white">Кухни</a></li>
+                            <li><a href="{{ route('post.index')}}" class="nav-link text-white">Кухни</a></li>
                             <li><a href="#" class="nav-link text-white">Техника</a></li>
                             <li><a href="#" class="nav-link text-white">Шкафы купе</a></li>
                         </ul>

@@ -4,6 +4,13 @@
     
     <div class="container">
         <div class="row">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active "><a class="text-decoration-none fw-light text-secondary" href="{{ route('main.index')}}">Главная</a></li>
+                <li class="breadcrumb-item active "><a class="text-decoration-none fw-light text-secondary" href="{{ route('post.index')}}">Каталог</a></li>
+            </ol>
+        </nav>
+            <h1 class="mb-5">Каталог</h1>
         @foreach ($posts as $post)
             <div class=" col-lg-3 col-sm-6 mb-3 center_card">
                 <div class="card mb-2 b-0 rounded-0">
