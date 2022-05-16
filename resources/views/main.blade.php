@@ -336,4 +336,55 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="rev d-flex">
+            <div class="card-body">
+                <div class="good_company d-flex justify-content-start mb-2">
+                    <img src="..." class="img-thumbnail" alt="...">
+                    <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
+                        Стаж: 10 лет
+                    </p>
+                </div>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                <a href="#" class="card-link link-dark text-decoration-none">Подробнее &#8594;</a>
+            </div>
+            <div class="card-body">
+                <div class="good_company d-flex justify-content-start mb-2">
+                    <img src="..." class="img-thumbnail" alt="...">
+                    <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
+                        Стаж: 10 лет
+                    </p>
+                </div>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                <a href="#" class="card-link link-dark text-decoration-none">Подробнее &#8594;</a>
+            </div>
+            <div class="card-body">
+                <div class="good_company d-flex justify-content-start mb-2">
+                    <img src="..." class="img-thumbnail" alt="...">
+                    <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
+                        Стаж: 10 лет
+                    </p>
+                </div>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                <a href="#" class="card-link link-dark text-decoration-none">Подробнее &#8594;</a>
+            </div>
+            <div class="card-body">
+                <div class="good_company d-flex justify-content-start mb-2">
+                    <img src="..." class="img-thumbnail" alt="...">
+                    <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
+                        Стаж: 10 лет
+                    </p>
+                </div>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                <a href="#" class="card-link link-dark text-decoration-none">Подробнее &#8594;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
 @endsection
