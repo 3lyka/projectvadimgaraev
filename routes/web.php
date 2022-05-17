@@ -34,4 +34,7 @@ Route::get('/main', 'MainController@index')->name('main.index');
 Route::get('/contacts', 'ContactsController@index')->name('contacts.index');
 Route::get('/about', 'AboutController@index')->name('about.index');
 Route::get('/buy', 'BuyController@index')->name('buy.index');
-Route::get('/goodinfo', 'GoodinfoController@index')->name('goodinfo.index');
+
+//Полезная информация
+Route::get('/info', 'InfoController@index')->name('info.index');
+Route::get('/info/{info}', 'InfoController@show')->name('info.show');
