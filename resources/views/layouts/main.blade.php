@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-  <title>Laravel cource</title>
+  <title>Оливковая ветвь</title>
 </head>
 
 <body>
-  <header class="fixed-top bg-light p-0 shadow-lg" style="margin-bottom:10% ;">
+  <header class="fixed-top bg-light p-0 shadow" style="margin-bottom:10% ;">
     <div class="container">
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,7 +37,7 @@
                   <a class="nav-link" href="{{ route('info.index')}}">Полезная информация</a>
                 </li>
               </ul>
-              <span class="navbar-text">
+              <span class="navbar-text fw-bold">
                 8 812 317 22 42
               </span>
             </div>

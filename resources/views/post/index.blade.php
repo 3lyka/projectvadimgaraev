@@ -12,7 +12,7 @@
         </nav>
             <h1 class="mb-5">Каталог</h1>
         @foreach ($posts as $post)
-            <div class=" col-lg-3 col-sm-6 mb-3 center_card">
+            <div class="col-lg-3 col-sm-6 mb-3 center_card">
                 <div class="card mb-2 b-0 rounded-0">
                     <img src=".." class="card-img-top p-0 b-0 rounded-0" alt="..." style="height: 14em;">
                     <div class="card-body">

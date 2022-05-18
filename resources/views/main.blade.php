@@ -287,6 +287,9 @@
                     <div class="mb-3 mt-3">
                         <label for="number" class="form-label text-white">Номер телефона</label>
                         <input type="tel" name="phone" class="phone-field form-control phone-field border-white border-3 rounded-0 bg-info text-white" id="exampleInputTel" data-rule-required="true" data-rule-minlength="10">
+                        @error('phone')
+                            <p class="text-danger"> Не заполнено поле Номер</p>
+                        @enderror
                     </div>
 
                     <button type="submit" class="btn btn-primary border-white rounded-0 text-white border-0 p-2" style="background-color:#07607C;">Оставить заявку</button>
@@ -341,7 +344,7 @@
         <div class="rev d-flex">
             <div class="card-body">
                 <div class="good_company d-flex justify-content-start mb-2">
-                    <img src="..." class="img-thumbnail" alt="...">
+                    <img src="..." class="img-thumbnail border-0 rounded-0" alt="...">
                     <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
                         Стаж: 10 лет
                     </p>
@@ -352,7 +355,7 @@
             </div>
             <div class="card-body">
                 <div class="good_company d-flex justify-content-start mb-2">
-                    <img src="..." class="img-thumbnail" alt="...">
+                    <img src="..." class="img-thumbnail border-0 rounded-0" alt="...">
                     <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
                         Стаж: 10 лет
                     </p>
@@ -363,7 +366,7 @@
             </div>
             <div class="card-body">
                 <div class="good_company d-flex justify-content-start mb-2">
-                    <img src="..." class="img-thumbnail" alt="...">
+                    <img src="..." class="img-thumbnail border-0 rounded-0" alt="...">
                     <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
                         Стаж: 10 лет
                     </p>
@@ -374,7 +377,7 @@
             </div>
             <div class="card-body">
                 <div class="good_company d-flex justify-content-start mb-2">
-                    <img src="..." class="img-thumbnail" alt="...">
+                    <img src="..." class="img-thumbnail border-0 rounded-0" alt="...">
                     <p class="card-title mt-4 ms-3"> <b> Константин </b><br>
                         Стаж: 10 лет
                     </p>
