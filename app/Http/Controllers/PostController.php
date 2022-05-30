@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreRequest;
 use App\Models\Post;
 
 class PostController extends Controller
@@ -22,12 +23,8 @@ class PostController extends Controller
     return view('post.show', compact('post'));
     }
 //Ниже представлена валидация, если ее не заполнить, ну придет такое себе
-    public function store() {
-        $data = request()->validate([
-            'title'     => 'string',
-            'content'   => 'string',
-            'image'     => 'string'
-        ]);
+    public function store(StoreRequest $request) {
+        $data = $request;
         Post::create($data);
         return redirect()->route('post.index');
     }

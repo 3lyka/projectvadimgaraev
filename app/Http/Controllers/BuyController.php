@@ -2,15 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Post;
-use Illuminate\Http\Request;
 
 class BuyController extends Controller
 {
-    public function index() {
-    return view('buy');
+    public function index()
+    {
+        return view('buy');
     }
-
-
-
 }
