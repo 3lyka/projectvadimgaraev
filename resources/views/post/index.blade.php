@@ -25,6 +25,11 @@
                 </div>
             </div>
             @endforeach
+
+            <div class="mt-5 pagination justify-content-center">
+                {{   $posts->links()   }}
+            </div>
+
         </div>
     </div>
 

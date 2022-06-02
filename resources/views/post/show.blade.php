@@ -40,7 +40,7 @@
                     <p class="card-text m-0">Стиль: </p>
                     <p class="card-text m-0">Цвет: </p>
                     <p class="card-text m-0">Материал: </p>
-                    <p class="card-text m-0">Наполнение: lectus morbi rhoncus</p>
+                    <p class="card-text m-0">Наполнение: {{$post->content}}</p>
                     <p class="card-text m-0"><b>от ₽</b></p>
 
 

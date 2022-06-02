@@ -9,7 +9,7 @@ class PostController extends Controller
 {
     public function index() {
        // $post = Post::find(1); вызов конкретного айди
-       $posts = Post::all();
+       $posts = Post::paginate(12);
     return view('post.index', compact('posts' ));
 
     }
