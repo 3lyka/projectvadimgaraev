@@ -41,3 +41,5 @@ import vue from '@vitejs/plugin-vue'
 export default {
   plugins: [vue()]
 }
+
+import {Swiper, Navigation, Pagination} from 'swiper';
