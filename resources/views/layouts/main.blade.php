@@ -96,6 +96,7 @@
 					</div>
 				</div>
 			</div>
+			<script src="{{ asset('js/app.es5.js') }}"></script>
 			<script src="{{ asset('js/app.js') }}"></script>
 			<div class="text-white ms-2 p-3">
 				<script>
