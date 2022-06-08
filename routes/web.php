@@ -48,3 +48,7 @@ Route::get('/', 'MainController@index')->name('main.index');
 Route::get('/contacts', 'IndexController@index')->name('contacts.index');
 Route::get('/about', 'AboutController@index')->name('about.index');
 Route::get('/buy', 'BuyController@index')->name('buy.index');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

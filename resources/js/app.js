@@ -31,15 +31,6 @@ const app = new Vue({
     el: '#app',
 });
 
-
-import vue from '@vitejs/plugin-vue'
-
-/**
- * https://vitejs.dev/config/
- * @type {import('vite').UserConfig}
- */
-export default {
-  plugins: [vue()]
-}
-
-import {Swiper, Navigation, Pagination} from 'swiper';
+import { Autoplay, Navigation, Pagination } from "swiper";
+import Swiper from "swiper";
+Swiper.use([Autoplay, Navigation, Pagination]);
