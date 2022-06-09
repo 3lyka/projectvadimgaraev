@@ -27,7 +27,7 @@
             @endforeach
 
             <div class="mt-5 pagination justify-content-center">
-                {{   $posts->links()   }}
+                {{   $posts->withQueryString()->links()   }}
             </div>
 
         </div>
