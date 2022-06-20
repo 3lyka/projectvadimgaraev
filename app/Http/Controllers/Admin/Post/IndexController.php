@@ -6,10 +6,8 @@ use App\Http\Controllers\Controller;
 
 class IndexController extends Controller
 {
-    public function __invoke() {
-return view('admin-panel.post.index');
-    }
-
-
-
+	public function __invoke()
+	{
+		return view('admin-panel.post.index');
+	}
 }
